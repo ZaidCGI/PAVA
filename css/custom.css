@@ -1,0 +1,36 @@
+/*------------------------------------------------------------------
+    File Name: custom.css
+-------------------------------------------------------------------*/
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+.my-small-dash {
+  min-height: 340px;
+}
+
+#loading-text {
+  display: block;
+  /* Afficher le paragraphe par défaut */
+}
+
+#webcamButton:focus+#loading-text,
+#webcamButton:active+#loading-text,
+#webcamButton:hover+#loading-text {
+  display: none;
+  /* Masquer le paragraphe lorsqu'on interagit avec le bouton */
+}
+
+.profile{
+  font-size: 16px;
+}
+
+.modal-header .close {
+  display: none;
+}
+
+
+
+.mdp{
+
+  padding-top:15%;
+}

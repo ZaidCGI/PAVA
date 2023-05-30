@@ -1,0 +1,3 @@
+cd "C:\Users\Administrator\Documents\GitHub\PAVA\IA heberg\Site\pluto-1.0.0\pluto-1.0.0"
+
+python server.py --host 38.242.194.54 --cert-file "C:\cygwin64\home\Administrator\public.pem" --key-file "C:\cygwin64\home\Administrator\private.pem"
